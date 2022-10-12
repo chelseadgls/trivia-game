@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Fun!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2:400,800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="score"></div>
+
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Categories</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#general" class="9">General Knowledge</a>
+          <a href="#books" class="10">Entertainment: Books</a>
+          <a href="#film" class="11">Entertainment: Film</a>
+          <a href="#music" class="12">Entertainment: Music</a>
+          <a href="#musicals" class="13">Entertainment: Musicals & Theatres</a>
+          <a href="#tv" class="14">Entertainment: Television</a>
+          <a href="#video-games" class="15">Entertainment: Video Games</a>
+          <a href="#board-games" class="16">Entertainment: Board Games</a>
+          <a href="#science" class="17">Science & Nature</a>
+          <a href="#computers" class="18">Science: Computers</a>
+          <a href="#math" class="19">Science: Mathematics</a>
+          <a href="#mythology" class="20">Mythology</a>
+          <a href="#sports" class="21">Sports</a>
+          <a href="#geography" class="22">Geography</a>
+          <a href="#history" class="23">History</a>
+          <a href="#politics" class="24">Politics</a>
+          <a href="#art" class="25">Art</a>
+          <a href="#celebs" class="26">Celebrities</a>
+          <a href="#animals" class="27">Animals</a>
+          <a href="#vehicles" class="28">Vehicles</a>
+          <a href="#comics" class="29">Entertainment: Comics</a>
+          <a href="#gadgets" class="30">Science: Gadgets</a>
+          <a href="#anime" class="31">Entertainent: Japanese Anime & Manga</a>
+          <a href="#cartoons" class="32">Entertainment: Cartoons & Animations</a>
+        </div>
+      </div>
+
+      <div class="start-game">
+        <button class="start-button">Start game</button>
+      </div>
+
+      <div class="next">
+        <button class="next-button hide">Next</button>
+      </div>
+
+      <div class="questions-container">
+      </div>
+
+    </div>
+	<script src="script.js"></script>
+  </body>
+</html>
